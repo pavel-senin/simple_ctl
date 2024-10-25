@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Crossroad</class>
+ <widget class="QMainWindow" name="Crossroad">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Crossroad</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>600</y>
+      <width>500</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>500</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>400</y>
+      <width>500</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>600</y>
+      <width>500</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>0</y>
+      <width>10</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_6">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>0</y>
+      <width>10</width>
+      <height>400</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_7">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>600</y>
+      <width>10</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_8">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>600</y>
+      <width>10</width>
+      <height>350</height>
+     </rect>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Plain</enum>
+    </property>
+    <property name="lineWidth">
+     <number>5</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Orientation::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="from3Cs">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>420</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="from6Cs">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>610</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="from9Cs">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>530</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="from0Cs">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>340</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="fromRight0Ps">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>340</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="fromLeft0Ps">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>280</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="fromUp9Ps">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>230</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="fromUp3Ps">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>290</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="fromRight6Ps">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>660</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="fromDown9Ps">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>670</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="fromDown3Ps">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>710</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="fromLeft6Ps">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>620</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
